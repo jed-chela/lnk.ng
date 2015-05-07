@@ -1,0 +1,152 @@
+/*
+
+	Chela CMS default style 1.0
+	
+	Written by Jed Chela
+
+*/
+
+/* General Containers */
+.block{
+	display:block !important ;
+	overflow:auto;
+}
+.block_in{
+	display:block !important ;
+	float:left !important ;
+	padding:5px !important ;
+}
+
+.top_block{
+}
+.spacer-small{
+	display:block;
+	padding:4px;
+}
+.spacer-medium{
+	display:block;
+	padding:6px;
+}
+.spacer-large{
+	display:block;
+	padding:10px;
+}
+.spacer-x-small{
+	display:block;
+	float:left;
+	width:50px;
+}
+.spacer-x-medium{
+	display:block;
+	float:left;
+	width:100px;
+}
+.spacer-x-large{
+	display:block;
+	float:left;
+	width:200px;
+}
+.no_border_bottom{
+	border-bottom:none !important;
+}
+.auto-flow{
+	overflow:auto;
+}
+.pad_left{
+	padding-left:10px !important;
+}
+.pad_left_medium{
+	padding-left:40px !important;
+}
+.pad_left_large{
+	padding-left:100px !important;
+}
+
+.metro_tile_square{
+	padding:20px !important;
+	margin:20px !important;
+	width:200px;
+	min-height:60px;
+}
+
+/* Borders and Shadows */
+.light-border{
+	border:1px solid #EEE;
+}
+.light-shadow-border{
+	border:1px solid #EEE;
+	box-shadow:1px 1px 1px 1px #CCC;
+}
+.dark-border{
+	border:1px solid #EEE;
+}
+
+
+/* Forms */
+#form-error{
+}
+#form-error p{
+	background:#F3F3F3;
+	color:#C00;
+	margin:0;
+	padding:4px;
+}
+#form-success{
+}
+#form-success p{
+	background:#98E9AD;
+	color:#333;
+	margin:0;
+	padding:4px;
+}
+.form-box{
+	display:block;
+	border: 1px solid #EEE;
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+/* Menus */
+.menu{
+	display:block;
+	float:left;
+	list-style:none;
+	overflow:auto;
+}
+.menu a{
+	background:#E0ECF1;
+	display:block;
+	float:left;
+	color:#06C;
+	font-size:18px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	text-decoration:none;
+	padding:10px;
+	margin:0;	
+	overflow:hidden;
+}
+.menu a:hover, .menu #current{
+	background:#0FA5EC;
+	color:#FFF;
+}
+
+.menu a span{
+	padding:0;
+	margin:0;
+}
+.menu-x a{
+	float:left !important;
+}
+.menu-y a{
+	float:none;
+	clear:both;
+}
+.menu-border{
+	border:1px solid #EEE;
+}
+
+
+
+
