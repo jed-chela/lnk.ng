@@ -1,0 +1,2 @@
+# lnk.ng
+lnk.ng
