@@ -5,7 +5,7 @@ class Home extends CI_Controller {
 	
 	public function index($params = "")
 	{
-		$this->load->library('session');
+		
 		$this->load->library('form_validation');
 		
 		$this->load->database();
